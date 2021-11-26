@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\hatee\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @contentful/rich-text-react-renderer
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\hatee\anaconda3;C:\Users\hatee\anaconda3\Library\mingw-w64\bin;C:\Users\hatee\anaconda3\Library\usr\bin;C:\Users\hatee\anaconda3\Library\bin;C:\Users\hatee\anaconda3\Scripts;C:\Users\hatee\AppData\Local\Microsoft\WindowsApps;C:\Users\hatee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hatee\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/date-fns/-/date-fns-2.26.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\hatee\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (events.js:482:28)
+      at ClientRequest.emit (events.js:376:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:790:9)
+      at Object.onceWrapper (events.js:482:28)
+      at TLSSocket.emit (events.js:388:22)
+      at TLSSocket.Socket._onTimeout (net.js:483:8)
+      at listOnTimeout (internal/timers.js:555:17)
+      at processTimers (internal/timers.js:498:7)
+
+npm manifest: 
+  {
+    "name": "gatsby-starter-minimal",
+    "version": "1.0.0",
+    "private": true,
+    "description": "A Gatsby starter with no plugins and a single welcome page.",
+    "author": "Laurie Barth",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "license": "0BSD",
+    "dependencies": {
+      "gatsby": "^3.14.2",
+      "gatsby-source-contentful": "^7.0.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
