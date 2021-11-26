@@ -7,6 +7,6 @@ export default function ProductElectronics({ pageContext }) {
   const { itemDetails } = pageContext;
   return <Layout>
     <h1>{itemDetails.title}</h1>
-    <p>{documentToReactComponents(itemDetails?.desc?.raw)}</p>
+    {/* <p>{documentToReactComponents(itemDetails?.desc?.raw)}</p> */}
   </Layout>
 }
